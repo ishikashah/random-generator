@@ -1,0 +1,97 @@
+* {
+  margin: 30px;
+  padding:5px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  justify-content: center;
+ align-items: center;
+}
+h1 {
+  border-color: white;
+  border-style: solid;
+  text-decoration-color: white;
+  background: yellow;
+  font-style: impact;
+  font-size: 50px;
+  color: White;
+  justify-content: center;
+
+}
+.snacks {
+  width: 35%;
+  background-color: white;
+  border-color: white;
+}
+.snack {
+  font-size: 30px;
+  color: yellow;
+  font-style: 30px;
+  margin: 8px;
+  font-family: serif;
+}
+.new-food {
+  margin-bottom: 25px;
+  height: 35px;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+.newSnacks {
+  width: 35%;
+  background-color: white;
+  border-color: white;
+}
+.change {
+  font-size: 30px;
+  color: yellow;
+  font-style: 30px;
+  margin: 8px;
+  font-family: serif;
+}
+.new-food {
+  margin-bottom: 15vh;
+  height: 10vh;
+  width: 50%;
+  text-align: center;
+}
+.food {
+  margin-bottom: 7.5%;
+  color: white;
+  font-family: impact, sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.4px;
+}
+@media screen and (max-width: 900px) {
+
+  .snacks {
+    width: 45%;
+  }
+
+  .getsnack {
+    font-size: 24px;
+  }
+
+  .new-food {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .snacks {
+    width: 65%;
+  }
+
+  .getsnack {
+    font-size: 24px;
+  }
+
+  .new-food {
+    width: 80%;
+  }
+
+}
